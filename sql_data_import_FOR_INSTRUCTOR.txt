@@ -1,0 +1,60 @@
+create database if not exists house_price_regression;
+use house_price_regression;
+
+drop table if exists house_price_data;
+
+CREATE TABLE house_price_data (
+  `id` int(11) UNIQUE NOT NULL,
+  `date` date DEFAULT NULL,
+  `bedrooms` int(4) DEFAULT NULL,
+  `bathrooms` float DEFAULT NULL,
+  `sqft_living` float DEFAULT NULL,
+  `sqft_lot` float DEFAULT NULL,
+  `floors` int(4) DEFAULT NULL,
+  `waterfront` int(4) DEFAULT NULL,
+  `view` int(4) DEFAULT NULL,
+  `condition` int(4) DEFAULT NULL,
+  `grade` int(4) DEFAULT NULL,
+  `sqft_above` float DEFAULT NULL,
+  `sqft_basement` float DEFAULT NULL,
+  `yr_built` int(11) DEFAULT NULL,
+  `yr_renovated` int(11) DEFAULT NULL,
+  `zip_code` int(11) DEFAULT NULL,
+  `lat` float DEFAULT NULL,
+  `lon` float DEFAULT NULL,
+  `sqft_living15` float DEFAULT NULL,
+  `sqft_lot15` float DEFAULT NULL,
+  `price` float DEFAULT NULL,
+  CONSTRAINT PRIMARY KEY (`id`)  -- constraint keyword is optional but its a good practice
+);
+
+SHOW VARIABLES LIKE 'local_infile';
+SET GLOBAL local_infile = 1;
+
+load data local infile '/Users/himanshuaggarwal/data/01-lesson_plans/05-unit_Project_week/regression/regression_data_clean.csv'
+into table house_price_data
+fields terminated BY ',';
+
+
+
+
+
+
+———
+
+ALTER TABLE house_price_data
+DROP COLUMN date;
+
+select * from house_price_data
+limit 10;
+
+select count(*) from house_price_data;
+
+
+select * from house_price_data
+order by price desc;
+
+
+select id from house_price_data
+order by price desc
+limit 10;
