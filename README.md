@@ -1,4 +1,4 @@
-<img src="https://github.com/C-Ameseder/1.2_Change_in_SOC_for_agr_practice/blob/main/6.Images/1.SOC_in_perenials_dahboard.png" alt="SOC in Dataset" width="500"/>
+<img src="https://github.com/C-Ameseder/1.2_Change_in_SOC_for_agr_practice/blob/main/6.Images/download.png" alt="SOC in Dataset" width="500"/>
 https://github.com/C-Ameseder/1.2_Change_in_SOC_for_agr_practice/blob/main/6.Images/1.SOC_in_perenials_dahboard.png
 # 1.1.HousePricing_Regression
 Bootcamp Regression Problem House Prices Ironhack 2021 - midproject
