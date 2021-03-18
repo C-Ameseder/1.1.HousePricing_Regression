@@ -10,15 +10,6 @@ Contributors:C-Ameseder marcus, Lorenzdm93, aleksejkoscejev, C-Ameseder
 3.Instructions: Instructions handed from the TA's from Ironhack
 4.Tableau&SQL: Contains the link to Tableau, and the SQL queries
 
-Link to the final project presentation:
-https://prezi.com/view/xeVYsnRha9VTqPc7EVT1/
-
-
-This project predicts the change in soil organic carbon when changing agricultural practice
-<img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
-
-
-
 ## Content
 - [Project Description](#project-description)
 - [Hypotheses / Questions](#hypotheses-questions)
@@ -77,10 +68,9 @@ What does your repository look like? Explain your folder and file structure.
 
 ## Links
 
-
-[Personal](https://www.christophameseder.com) 
-[Repository](https://github.com/C-Ameseder/1.1.HousePricing_Regression/edit/main/README.md)  
-[Slides](https://prezi.com/view/xeVYsnRha9VTqPc7EVT1/)  
+[Personal](https://www.christophameseder.com)   
+[Repository](https://github.com/C-Ameseder/1.1.HousePricing_Regression/edit/main/README.md)    
+[Slides](https://prezi.com/view/xeVYsnRha9VTqPc7EVT1/)    
 
 
 
